@@ -93,7 +93,7 @@ export default function Home({ entriesData }) {
       <div className="bg-amber/50 backdrop-blur-xl flex flex-row z-50 fixed bottom-4 right-4 text-yeezy border border-black rounded text-black">
         <div className="text-xs flex flex-row items-center border-black">
           <Link className="text-xs" href="https://twitter.com/0xpkeating">
-            <a className="p-4" target="_blank" ref="no_opener">
+            <a className="p-4" target="_blank" rel="noreferrer">
               Have any questions? DMs open
             </a>
           </Link>
