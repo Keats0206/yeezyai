@@ -45,7 +45,7 @@ export default function Home({ entriesData }) {
   };
 
   return (
-    <div className="w-screen p-4 bg-amber-100">
+    <div className="w-screen h-full min-h-screen p-4 bg-amber-100">
       <div className="bg-amber/50 backdrop-blur-xl flex flex-row z-50 fixed top-4 left-4 text-yeezy border border-black rounded text-black">
         <div>
           <p className="font-bold p-4">YEEZYAI</p>
